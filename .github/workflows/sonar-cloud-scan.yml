@@ -1,7 +1,7 @@
 name: SonarCloud Scan
 
 on:
-	push:
+push:
 		branches:
 			- "master"
 			- "feature*"
