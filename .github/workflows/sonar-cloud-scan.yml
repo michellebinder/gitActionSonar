@@ -2,9 +2,9 @@ name: SonarCloud Scan
 
 on:
 push:
-		branches:
-			- "master"
-			- "feature*"
+branches:
+	- "master"
+	- "feature*"
 			
 jobs: 
 	sonarCloud Trigger:
