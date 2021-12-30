@@ -4,8 +4,7 @@ on:
 push:
 branches:
 - "master"
-- "feature*"
-			
+- "feature*"		
 jobs: 
 	sonarCloud Trigger:
 		name: SonarCloud Trigger
